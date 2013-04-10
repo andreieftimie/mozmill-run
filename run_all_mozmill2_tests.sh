@@ -28,5 +28,6 @@ do
   testrun_l10n --report=$REPORT $f
   testrun_addons --report=$REPORT $f --with-untrusted
   testrun_remote --report=$REPORT $f
+  testrun_functional --report=$REPORT $f
   testrun_endurance --report=$REPORT $f --entities=10 --iterations=10
 done
